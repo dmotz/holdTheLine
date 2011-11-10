@@ -17,7 +17,6 @@
                     $this.val(str)
                         .bind('focus', function(){
                             if($this.val() === str) $this.val('');
-                            }
                         })
                         .bind('blur', function(){
                             if($this.val() === '') $this.val(str);
